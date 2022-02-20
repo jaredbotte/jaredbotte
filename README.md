@@ -65,4 +65,8 @@ My favorite lab I've created is the custom-game-controller lab. In this lab, stu
 
 A VGA driver for the STM32F091 Microcontroller! This project succesfully draws 400x300 images to the screen with a 3-bit color depth. Images are stored in flash memory and displayed to the screen in a 800x600 @ 59 HZ configuration.
 
+| ![](./img/expected.png) | ![](./img/actual.png) |
+| :----: | :----: |
+| An example image with 3-bit color depth | That image being output from the STM32 |
+
 I am currently in the works of improving the design to include external SDRAM, and to be able to generate image data on the fly. It has been quite a challenge working with just 32KB of RAM, since one 400x300 image takes 45KB of memory!
